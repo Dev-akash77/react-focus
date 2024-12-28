@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --text: #0000;
+  --highlight: #1b4ffa;
+  --transback: #eaeaf8;
+}
+.cc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bar{
+    transition: .5s linear;
+}
