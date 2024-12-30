@@ -1,14 +1,17 @@
-import React from 'react'
-import MainCard from './Components/MainCard'
+import React from "react";
+import MainCard from "./Components/MainCard";
+import { StoreContextProvider } from "./Context/Store";
 
 const App = () => {
   return (
     <>
-     <div>
-      <MainCard />
-     </div>
+      <StoreContextProvider>
+        <div>
+          <MainCard />
+        </div>
+      </StoreContextProvider>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
